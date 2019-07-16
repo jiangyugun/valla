@@ -16,14 +16,22 @@
   <!-- Styles -->
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/animate.css">
-  <link href='http://fonts.googleapis.com/css?family=Dr+Sugiyama|Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-  
+
+  <!-- Vesperr Styles -->
+  <link href="Vesperr_assets/css/bootstrap.css" rel="stylesheet" />
+  <link href="Vesperr_assets/css/bootstrap-responsive.css" rel="stylesheet" />
+  <link href="Vesperr_assets/css/prettyPhoto.css" rel="stylesheet" />
+  <link href="Vesperr_assets/css/animate.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Roboto+Condensed:400,300,700" rel="stylesheet" />
+  <link href="Vesperr_assets/css/style.css" rel="stylesheet" />
+  <link href="Vesperr_assets/color/default.css" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <!-- 2019/7/6 -->
+
+  <!-- Live2d Styles -->
   <link rel="stylesheet" href="live2d/css/live2d.css" />
 
   <script src="js/modernizr-2.7.1.js"></script>
@@ -37,7 +45,7 @@
 </head>
 
 <body>
-    <div class="navbar navbar-inverse navbar-static-top">
+    <!-- <div class="navbar navbar-inverse navbar-static-top">
       <div class="container">
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -56,7 +64,30 @@
           <a href="https://www.facebook.com/VALLA-404188946857411/?modal=admin_todo_tour"><img src="img/fb.png" height="40"></a>
         </div>
       </div>
+    </div> -->
+    <header>
+    <!-- start top -->
+    <div id="topnav" class="navbar navbar-fixed-top default">
+      <div class="navbar-inner">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html"><img src="img/Valla_Logo.png"></a>
+          </div>
+          <div class="navigation">
+            <nav>
+              <ul class="nav pull-right">
+                <!-- <li class="current"><a href="#intro">首頁</a></li> -->
+                <li class="current"><a href="sigin.html">登入</a></li>
+                <li><a href="#English">English</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!--/.nav-collapse -->
+        </div>
+      </div>
     </div>
+    <!-- end top -->
+  </header>
 
 
     <!--Header-->
@@ -67,7 +98,15 @@
             <!-- <img class="header-img" src="img/123.png" alt="Header Image"> -->
             <div id="landlord"> 
               <div class="message" style="opacity:0"></div>
-              <canvas id="live2d" width="500" height="660" class="live2d"></canvas>
+              <canvas id="live2d" width="500" height="650" class="live2d"></canvas>
+              <!-- <p style="color: black;position:absolute;bottom:-275px;right:-220px">
+              &emsp;&nbsp;製作者:安薩羅<br>
+              繪圖師:XXX
+              </p> -->
+              <p style="color: black;position:absolute;bottom:-275px;left:-30px">
+              &emsp;&nbsp;製作者:安薩羅<br>
+              繪圖師:XXX
+              </p>
             </div>
           </div>
           <div class="col-sm-8 pull-right text-right">
@@ -79,6 +118,7 @@
         </div>
       </div>
     </section>
+    
     
     
     <!--Main 1-->
@@ -227,7 +267,7 @@
     </section>
 
     <!--Main 5-->
-    <section id="main2">
+    <section id="main1">
       <div class="container">
         <div class="row">
           <div class="col-sm-6 wow fadeInUpBig post">
@@ -253,7 +293,7 @@
         </div>
       </div>
     </footer>
-    
+  
     <!-- Javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -286,6 +326,8 @@
     <script>
       new WOW().init();
     </script>
+
+    <!-- Vesperr Javascript Library Files -->
 
     
 

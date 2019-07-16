@@ -228,10 +228,9 @@ p {
 #header {
   /*background: #545454;*/
   background: #4eacdd;
-  height: 650px;
+  height: 780px;
   overflow: hidden;
 }
-
 
 .header-text {
   padding-top: 175px;
@@ -247,6 +246,7 @@ p {
   min-height: 650px;
   overflow: hidden;
   height: auto;
+  z-index: -5;
 }
 
 .main1-img {
@@ -263,6 +263,8 @@ blockquote {
     /*font-style: italic;*/
     margin: 0 0 20px;
     padding: 0px 20px;
+    position:absolute;
+    bottom:-250px;
 }
 
 /*轉場的時間*/
