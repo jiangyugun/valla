@@ -11,17 +11,19 @@
    Global styles
    ========================================================================== */
 h1 {
-  font-family: 'Dr Sugiyama', cursive;
+  /*font-family: 'Dr Sugiyama', cursive;*/
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
-h2, h3, p, .navbar-nav {
-  font-family: 'Lato', sans-serif;
+h2, h3, p, table, .navbar-nav {
+  /*font-family: 'Lato', sans-serif;*/
+  font-family: 'Noto Sans JP', sans-serif;
 } 
 
 
 
 h1 {
-  font-size: 62px;
+  font-size: 80px;
   color: #ffffff;
 }
 
@@ -224,7 +226,8 @@ p {
    Main styles
    ========================================================================== */
 #header {
-  background: #545454;
+  /*background: #545454;*/
+  background: #4eacdd;
   height: 650px;
   overflow: hidden;
 }
@@ -253,13 +256,29 @@ p {
 
 
 blockquote {
+    font-family: 'Noto Sans JP', sans-serif;
     border-left: 8px solid #4eacdd;
-    font-size: 16.5px;
+    font-size: 20px;
     color: #7e7e7e;
-    font-style: italic;
+    /*font-style: italic;*/
     margin: 0 0 20px;
     padding: 0px 20px;
 }
+
+/*轉場的時間*/
+  .post img {
+  transition: all 0.5s ease 0s;
+  }
+
+  /*判斷滑鼠的動作放大圖片還有增加透明度*/
+  .post img:hover {
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  opacity: .5;
+  }
 
 #main2 {
   background: #ffffff;
