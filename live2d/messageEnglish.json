@@ -1,0 +1,18 @@
+{
+  "mouseover": [
+    {
+      "selector": ".title a",
+      "text": [ "Looking at {text}?" ]
+    },
+    {
+      "selector": ".searchbox",
+      "text": [ "Do you need help?" ]
+    }
+  ],
+  "click": [
+    {
+      "selector": "#landlord #live2d",
+      "text": [ "Welcome", "I hope you like our products！", "Please read the contents carefully" ]
+    }
+  ]
+}
