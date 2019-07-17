@@ -41,7 +41,7 @@ h3 {
 }
 
 p {
-  color: #7e7e7e;
+  /*color: #7e7e7e;*/
   font-size: 16px;
 }
 
@@ -259,7 +259,7 @@ blockquote {
     font-family: 'Noto Sans JP', sans-serif;
     border-left: 8px solid #4eacdd;
     font-size: 20px;
-    color: #7e7e7e;
+    /*color: #7e7e7e;*/
     /*font-style: italic;*/
     margin: 0 0 20px;
     padding: 0px 20px;
@@ -321,10 +321,10 @@ blockquote {
   width: 60px;
   height: 60px;
   border-radius: 30px;
-  border: 2px solid #545454;
+  border: 2px solid #FFFFFF;
   background: transparent;
-  color: #545454;
-  padding: 14px 16px;
+  color: #FFFFFF;
+  padding: 14px 14px;
   display: block;
 }
 
@@ -359,12 +359,6 @@ blockquote {
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
     width: 100%;
 }
-
-footer {
-  background: #ffffff;
-  padding: 40px 0px;
-}
-
 
 
 /* ==========================================================================
