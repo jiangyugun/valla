@@ -263,8 +263,8 @@ blockquote {
     /*font-style: italic;*/
     margin: 0 0 20px;
     padding: 0px 20px;
-    position:absolute;
-    bottom:-250px;
+    position:relative;
+    bottom:-30px;
 }
 
 /*轉場的時間*/
