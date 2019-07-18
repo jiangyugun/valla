@@ -10,7 +10,7 @@ firebase.auth().onAuthStateChanged( function(user) {
 
     if ( user != null ) {
       var email_id = user.email;
-      document.getElementById( "Sigin_user" ).innerHTML = "<a href='sigin.html'>帳戶資料</a>";
+      document.getElementById( "Sigin_user_English" ).innerHTML = "<a href='sigin_English.html'>Account</a>";
     }
   }
 });

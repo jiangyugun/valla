@@ -10,11 +10,8 @@ firebase.auth().onAuthStateChanged(function(user) {
       console.log(token);
     });
     if(user != null){
-
-      
       var email_id = user.email;
-      document.getElementById("usertest").innerHTML = "您的帳號 : " + email_id;
-      
+      document.getElementById("usertest").innerHTML = "your account : " + email_id;
     }
 
   } else {
@@ -102,7 +99,7 @@ function changeEmail() {
   firebase.auth().useDeviceLanguage();
   // 修改 Email
   var user = firebase.auth().currentUser;
-  user.updateEmail("andy6804tw@gmail.com").then(function () {
+  user.updateEmail("zxas5566777@gmail.com").then(function () {
     // Update successful.
   }).catch(function (error) {
     // An error happened.
